@@ -1,0 +1,61 @@
+{
+  "name": "cloudcontrol",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão Empresarial",
+  "main": "index.html",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint src/**/*.js",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "keywords": [
+    "gestão",
+    "empresarial",
+    "erp",
+    "crm",
+    "estoque",
+    "vendas",
+    "financeiro"
+  ],
+  "author": "EliteIE",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "babel-loader": "^9.1.3",
+    "clean-css": "^5.3.2",
+    "copy-webpack-plugin": "^13.0.0",
+    "html-minifier": "^4.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "serve": "^14.2.0",
+    "terser": "^5.16.8",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "firebase": "^9.22.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EliteIE/CloudControl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EliteIE/CloudControl/issues"
+  },
+  "homepage": "https://github.com/EliteIE/CloudControl#readme"
+}

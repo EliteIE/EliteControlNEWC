@@ -1,0 +1,1 @@
+console.log('Dashboard modular carregado via Webpack!'); 
